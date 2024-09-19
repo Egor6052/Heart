@@ -48,6 +48,7 @@ int main(){
 		printf("\x1b[H");
 		 for (int i = 0; i < 100 * 40; i++){
 			putchar(i % 100 ? " .,-~:;=!*#$@@" [lroundf(zb[i] / maxz * 13)] : 10);
+			// putchar(i % 100 ? "@@$#*!=;:~-,. " [lroundf(zb[i] / maxz * 13)] : 10);
 		}
 
 		t += 0.003f;
